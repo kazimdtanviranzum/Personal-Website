@@ -1,0 +1,30 @@
+[
+  {
+    "degree": "MSC. . in Name Here",
+    "institute": "Khulna University of Engineering & Technology",
+    "year": "2023 - Present",
+    "short_description": "",
+    "result": "in progress"
+  },
+  {
+    "degree": "Bsc. Eng. in Industrial and Production Engineering",
+    "institute": "Khulna University of Engineering & Technology",
+    "year": "2018 - 2023",
+    "short_description": "",
+    "result": "CGPA: 4.0/4.0"
+  },
+  {
+    "degree": "High Secondary School Certificate (HSC)",
+    "institute": "Example High School",
+    "year": "2017",
+    "short_description": "",
+    "result": "GPA: 5/5"
+  },
+  {
+    "degree": "Secondary School Certificate (SSC)",
+    "institute": "Example Business School",
+    "year": "2015",
+    "short_description": "",
+    "result": "GPA: 5/5"
+  }
+]

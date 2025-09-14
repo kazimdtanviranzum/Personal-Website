@@ -1,0 +1,135 @@
+/* HeroSection Component Styles */
+
+@keyframes fade-in {
+    from { 
+        opacity: 0; 
+    }
+    to { 
+        opacity: 1; 
+    }
+}
+
+@keyframes slide-up {
+    from { 
+        opacity: 0; 
+        transform: translateY(30px); 
+    }
+    to { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+.animate-fade-in {
+    animation: fade-in 1s ease-out;
+}
+
+.animate-slide-up {
+    animation: slide-up 1s ease-out;
+    animation-fill-mode: both;
+}
+
+.animate-slide-up.delay-200 {
+    animation-delay: 0.2s;
+}
+
+.animate-slide-up.delay-300 {
+    animation-delay: 0.3s;
+}
+
+.animate-slide-up.delay-400 {
+    animation-delay: 0.4s;
+}
+
+.animate-slide-up.delay-500 {
+    animation-delay: 0.5s;
+}
+
+.animate-slide-up.delay-600 {
+    animation-delay: 0.6s;
+}
+
+/* Additional hero section specific styles */
+.hero-section {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 50%, #e0e7ff 100%);
+}
+
+.hero-container {
+    position: relative;
+    z-index: 10;
+}
+
+/* Mobile-specific improvements */
+@media (max-width: 640px) {
+    .hero-section {
+        padding: 1rem 0;
+    }
+    
+    /* Better text sizing for mobile */
+    .hero-section h1 {
+        font-size: 2.5rem !important;
+        line-height: 1.2;
+    }
+    
+    /* Better spacing for designation/institution cards */
+    .hero-section .space-y-4 > div {
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 0.75rem;
+        margin-bottom: 1rem;
+    }
+    
+    /* Ensure proper alignment for mobile */
+    .hero-section .text-center {
+        text-align: center;
+    }
+    
+    /* Better spacing for action buttons on mobile */
+    .hero-section .action-button {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+    }
+}
+
+.profile-image-container {
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.profile-image-container:hover {
+    transform: translateY(-5px);
+}
+
+.social-link {
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    transform: scale(1.1);
+    color: #2563eb;
+}
+
+.action-button {
+    transition: all 0.3s ease;
+    transform: translateY(0);
+}
+
+.action-button:hover {
+    transform: translateY(-2px) scale(1.05);
+}
+
+.floating-element {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

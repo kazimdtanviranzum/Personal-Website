@@ -1,0 +1,36 @@
+{
+  "journal": [
+    {
+      "title": "Optimizing Machine Learning Models for Edge Computing",
+      "authors": "John Doe, Jane Smith",
+      "year": 2023,
+      "link": "https://example.com/journal1"
+    },
+    {
+      "title": "Advances in Deep Neural Networks for Image Processing",
+      "authors": "Alice Brown, Bob White",
+      "year": 2021,
+      "link": "https://example.com/journal2"
+    },
+    {
+      "title": "Advances in Deep Neural Networks for Image Processing",
+      "authors": "Alice Brown, Bob White",
+      "year": 2021,
+      "link": "https://example.com/journal2"
+    }
+  ],
+  "conference": [
+    {
+      "title": "Distributed Systems in Cloud Computing: A Case Study",
+      "authors": "Eve Johnson, Charlie Miller",
+      "year": 2022,
+      "link": "https://example.com/conference1"
+    },
+    {
+      "title": "Robotics and AI: The Future of Automation",
+      "authors": "David Clark, Emma Wilson",
+      "year": 2020,
+      "link": "https://example.com/conference2"
+    }
+  ]
+}

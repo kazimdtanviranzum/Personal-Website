@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Fulbright Scholarship",
+    "year": "2020",
+    "description": "Awarded for excellence in academic performance and research potential in the field of Artificial Intelligence.",
+    "organization": "U.S. Department of State"
+  },
+  {
+    "title": "Best Paper Award",
+    "year": "2022",
+    "description": "Recognized for presenting the best research paper at the International Conference on Machine Learning (ICML).",
+    "organization": "ICML Organizing Committee"
+  },
+  {
+    "title": "National Science Foundation Fellowship",
+    "year": "2019",
+    "description": "Received for outstanding contributions to research in data science and computational biology.",
+    "organization": "National Science Foundation"
+  },
+  {
+    "title": "Dean's List Award",
+    "year": "2018",
+    "description": "Achieved the highest GPA in the department during the academic year 2017-2018.",
+    "organization": "University of Example"
+  }
+]

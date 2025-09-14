@@ -1,0 +1,27 @@
+{
+  "researchInterests": [
+    "Artificial Intelligence and Machine Learning",
+    "Data Science and Big Data Analytics",
+    "IoT and Cyber-Physical Systems",
+    "Human-Computer Interaction"
+  ],
+  "projects": [
+    {
+      "title": "AI-Driven Healthcare Systems",
+      "description": "Developing AI models to predict diseases and assist in diagnosis.",
+      "year": 2023,
+      "link": "https://example.com/ai-healthcare"
+    },
+    {
+      "title": "Big Data Analytics for Climate Change",
+      "description": "Analyzing large-scale environmental data to predict climate trends.",
+      "year": 2022
+    },
+    {
+      "title": "IoT Solutions for Smart Cities",
+      "description": "Designing IoT-based frameworks for efficient urban management.",
+      "year": 2021,
+      "link": "https://example.com/iot-smart-cities"
+    }
+  ]
+}

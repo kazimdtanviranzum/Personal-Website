@@ -1,0 +1,48 @@
+[
+  {
+    "position": "Lecturer",
+    "department": "Department of Industrial Engineering & Management",
+    "institution": "Khulna University of Engineering & Technology",
+    "duration": "2012 - Present",
+    "responsibilities": [
+      "Taught advanced computer science courses such as AI and Data Structures.",
+      "Supervised 20+ Ph.D. and master's students in research projects.",
+      "Published 15+ research papers in reputed journals.",
+      "Chaired the curriculum review committee for the department."
+    ]
+  },
+  {
+    "position": "Associate Professor",
+    "institution": "Example Institute of Technology",
+    "duration": "2010 - 2015",
+    "responsibilities": [
+      "Developed and taught courses in Software Engineering and Database Systems.",
+      "Authored three textbooks used in undergraduate and graduate courses.",
+      "Conducted workshops on advanced programming techniques.",
+      "Collaborated on grant-funded research projects worth $1M."
+    ]
+  },
+  {
+    "position": "Assistant Professor",
+    "institution": "College of Engineering and Technology",
+    "duration": "2005 - 2010",
+    "responsibilities": [
+      "Designed and delivered introductory programming and algorithms courses.",
+      "Mentored undergraduates for national coding competitions.",
+      "Implemented an online grading system for the department.",
+      "Participated in outreach programs to encourage STEM education."
+    ]
+  },
+   {
+    "position": "ADVISOR",
+    "department": "Department of Industrial Engineering & Management",
+    "institution": "Khulna University of Engineering & Technology",
+    "duration": "2012 - Present",
+    "responsibilities": [
+      "Taught advanced computer science courses such as AI and Data Structures.",
+      "Supervised 20+ Ph.D. and master's students in research projects.",
+      "Published 15+ research papers in reputed journals.",
+      "Chaired the curriculum review committee for the department."
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "courses": [
+    { "name": "Introduction to Machine Learning", "code": "CS101" },
+    { "name": "Advanced Data Structures", "code": "CS202" },
+    { "name": "AI in Practice", "code": "CS305" }
+  ],
+  "students": [
+    {
+      "name": "Alice Johnson",
+      "thesisTitle": "Deep Learning for Medical Imaging",
+      "year": "2024"
+    },
+    {
+      "name": "Bob Smith",
+      "thesisTitle": "Optimization Algorithms in AI",
+      "year": "2023"
+    },
+    {
+      "name": "Carol Lee",
+      "thesisTitle": "Reinforcement Learning in Robotics",
+      "year": "2022"
+    }
+  ]
+}

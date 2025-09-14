@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Professor Wins Prestigious Research Award",
+    "date": "2024-11-15",
+    "description": "Dr. John Doe received the XYZ Research Award for groundbreaking work in AI.",
+    "link": "https://example.com/research-award"
+  },
+  {
+    "title": "Keynote Speech at International Conference",
+    "date": "2024-10-10",
+    "description": "Delivered a keynote speech on the future of IoT at ABC Conference.",
+    "link": "https://example.com/iot-conference"
+  },
+  {
+    "title": "Published New Paper in Machine Learning",
+    "date": "2024-09-05",
+    "description": "Exploring advanced neural network architectures for large-scale data.",
+    "link": null
+  }
+]
