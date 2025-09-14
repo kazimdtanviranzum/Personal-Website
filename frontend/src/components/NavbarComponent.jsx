@@ -89,12 +89,7 @@ const NavbarComponent = () => {
           <div className="flex items-center gap-4">
             <div className="mr-4 hidden lg:block">{navList}</div>
             <div className="flex items-center gap-x-1">
-              <Link
-                to="/admin"
-                className="hidden lg:inline-block px-3 py-1 text-sm font-medium text-purple-600 hover:text-purple-800 hover:bg-purple-50 rounded-md transition-colors"
-              >
-                Admin
-              </Link>
+          
             </div>
             <IconButton
               variant="text"
