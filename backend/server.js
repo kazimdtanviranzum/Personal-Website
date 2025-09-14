@@ -45,10 +45,51 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 // Serve static files (for init page)
 app.use(express.static('public'));
 
+// MongoDB connection configuration for serverless
+const connectDB = async () => {
+  try {
+    if (mongoose.connections[0].readyState) {
+      console.log('✅ Already connected to MongoDB');
+      return;
+    }
+
+    const conn = await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/rashed_sir_website', {
+      // Optimized for serverless
+      maxPoolSize: 10, // Maintain up to 10 socket connections
+      serverSelectionTimeoutMS: 5000, // Keep trying to send operations for 5 seconds
+      socketTimeoutMS: 45000, // Close sockets after 45 seconds of inactivity
+      bufferCommands: false, // Disable mongoose buffering
+    });
+
+    console.log('✅ Connected to MongoDB:', conn.connection.host);
+  } catch (error) {
+    console.error('❌ MongoDB connection error:', error);
+    // Don't exit process in serverless environment
+    if (process.env.NODE_ENV !== 'production') {
+      process.exit(1);
+    }
+  }
+};
+
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/rashed_sir_website')
-  .then(() => console.log('✅ Connected to MongoDB'))
-  .catch((error) => console.error('❌ MongoDB connection error:', error));
+connectDB();
+
+// Middleware to ensure database connection
+app.use('/api', async (req, res, next) => {
+  try {
+    if (mongoose.connections[0].readyState !== 1) {
+      console.log('🔄 Reconnecting to MongoDB...');
+      await connectDB();
+    }
+    next();
+  } catch (error) {
+    console.error('❌ Database connection middleware error:', error);
+    res.status(503).json({
+      success: false,
+      message: 'Database connection unavailable'
+    });
+  }
+});
 
 // Routes
 app.use('/api/auth', authRoutes);
